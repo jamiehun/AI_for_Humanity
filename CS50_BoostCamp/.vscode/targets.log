@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Tue Jul 12 15:21:48 2022
+# Make data base, printed on Thu Jul 14 15:39:15 2022
 
 # Variables
 
@@ -18,16 +18,13 @@ make: *** No rule to make target `all'.  Stop.
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
-# environment
-VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
 @F = $(notdir $@)
-# makefile (from `Makefile', line 1)
-LDLIBS = -lcs50
+ 
 # makefile
 CURDIR := /Users/jamie/AI_for_Humanity/CS50_BoostCamp
 # makefile
@@ -36,30 +33,24 @@ SHELL = /bin/sh
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
-# makefile (from `Makefile', line 1)
-MAKEFILE_LIST :=  Makefile
-# environment
-VSCODE_VERBOSE_LOGGING = true
+# makefile
+MAKEFILE_LIST := 
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/c5/22k4dm710b5f_sdq3b03pb700000gn/T/vscode-ipc-fc05cff6-a20c-4176-8f26-0d7296c3214e.sock
 # environment
 VSCODE_CWD = /
 # environment
 PATH = /Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # environment
-VSCODE_LOG_STACK = false
+LaunchInstanceID = 2115BF6C-97E2-4E4A-828F-4A16F55991C2
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.jLbOzvIgnV/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.8GJC9ANcVf/Listeners
 # automatic
 %F = $(notdir $%)
-# environment
-VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /Users/jamie/AI_for_Humanity/CS50_BoostCamp
 # environment
@@ -71,7 +62,7 @@ HOME = /Users/jamie
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/jamie/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = /Users/jamie/Library/Application Support/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
 # environment
 LOGNAME = jamie
 # environment
@@ -105,7 +96,9 @@ TMPDIR = /var/folders/c5/22k4dm710b5f_sdq3b03pb700000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/jamie/Library/Application Support/Code/1.68.1-main.sock
+VSCODE_IPC_HOOK = /Users/jamie/Library/Application Support/Code/1.69.0-main.sock
+# environment
+MallocNanoZone = 0
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -113,7 +106,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.2769155.2769162
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.3798913.3798919
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -128,6 +121,8 @@ MAKEFILES :=
 <F = $(notdir $<)
 # environment
 LC_ALL = C
+# environment
+SECURITYSESSIONID = 186b3
 # automatic
 ^F = $(notdir $^)
 # default
@@ -139,9 +134,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 64019
+VSCODE_PID = 523
 # variable set hash-table stats:
-# Load=63/1024=6%, Rehash=0, Collisions=1/87=1%
+# Load=60/1024=6%, Rehash=0, Collisions=1/81=1%
 
 # Pattern-specific Variable Values
 
@@ -176,10 +171,21 @@ all:
 
 # Not a target:
 Makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
-#  Last modified 2022-07-12 15:09:39
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
@@ -189,19 +195,29 @@ Makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
 # files hash-table stats:
-# Load=4/1024=0%, Rehash=0, Collisions=0/16=0%
+# Load=6/1024=1%, Rehash=0, Collisions=0/17=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
 
 # No general (`VPATH' variable) search path.
 
-# # of strings in strcache: 1
-# # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Tue Jul 12 15:21:48 2022
+# Finished Make data base on Thu Jul 14 15:39:15 2022
 
  
