@@ -1,31 +1,16 @@
 #include <cs50.h>
 #include <stdio.h>
 
-float average(int length, int array[]);
-
 int main(void)
 {
-    // 사용자로부터 점수의 갯수 입력
-    int n = get_int("Scores: ");
+    // Scores
+    int scores[3];
+    scores[0] = 72;
+    scores[1] = 73;
+    scores[2] = 33;
 
-    // 점수 배열 선언 및 사용자로부터 값 입력
-    int scores[n];
-    for(int i = 0; i < n; i++)
-    {
-        scores[i] = get_int("Score %i:", i + 1);
-    }
-
-    // 평균 출력
-    printf("Average: %.1f\n", average(n, scores));
+    // Print average
+    printf("Average: %i\n", (scores[0]+scores[1]+scores[2])/3);
 }
 
-// 평균을 구하는 함수
-float average(int length, int array[])
-{
-    int sum = 0;
-    for (int i = 0; i < length; i++)
-    {
-        sum += array[i];
-    }
-    return (float) sum / (float) length;
-}
+

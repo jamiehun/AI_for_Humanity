@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Wed Jul 13 14:47:18 2022
+# Make data base, printed on Thu Jul 21 22:23:48 2022
 
 # Variables
 
@@ -41,13 +41,13 @@ VSCODE_CWD = /
 # environment
 PATH = /Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # environment
-LaunchInstanceID = 2115BF6C-97E2-4E4A-828F-4A16F55991C2
+LaunchInstanceID = C423780F-5D68-49CC-9626-3FC0EED6D171
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.8GJC9ANcVf/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.sJzLPCjzj6/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -61,7 +61,7 @@ HOME = /Users/jamie
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/jamie/Library/Application Support/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+VSCODE_CODE_CACHE_PATH = /Users/jamie/Library/Application Support/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
 # environment
 LOGNAME = jamie
 # environment
@@ -95,7 +95,7 @@ TMPDIR = /var/folders/c5/22k4dm710b5f_sdq3b03pb700000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/jamie/Library/Application Support/Code/1.69.0-main.sock
+VSCODE_IPC_HOOK = /Users/jamie/Library/Application Support/Code/1.69.1-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -105,7 +105,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.3798913.3798919
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.4421961.4421968
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -133,7 +133,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 523
+VSCODE_PID = 581
 # variable set hash-table stats:
 # Load=60/1024=6%, Rehash=0, Collisions=1/81=1%
 
@@ -143,7 +143,7 @@ VSCODE_PID = 523
 
 # Directories
 
-# . (device 16777234, inode 1578511): 7 files, no impossibilities.
+# . (device 16777233, inode 1578511): 7 files, no impossibilities.
 
 # 7 files, no impossibilities in 1 directories.
 
@@ -217,6 +217,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Wed Jul 13 14:47:18 2022
+# Finished Make data base on Thu Jul 21 22:23:48 2022
 
  

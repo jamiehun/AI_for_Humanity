@@ -12,5 +12,6 @@ int main(void)
     scores[2] = 33;
 
     // 평균 점수 출력
-    printf("Average: %i\n", (scores[0] + scores[1] + scores[2])/ N);
+    printf("Average: %i\n", (scores[0] + scores[1] + scores[2])/N);
 }
+
