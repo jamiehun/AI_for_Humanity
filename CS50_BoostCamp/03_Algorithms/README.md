@@ -1,31 +1,29 @@
 ## Big O
-|    |   |
+|구분    |항목   |
 |----|---|
 |O(n^2) | bubble sort, selection sort|
 |O(nlog n) | merge sort
 |O(n) | linear search
 |O(log n) | binary search
 |O(1) | 
-|    
+
 ## Omega
-|    |   |
+|구분    |항목   |
 |--|---|
 |Omega(n^2) | bubble sort, selection sort
 |Omega(n log n) | merge sort
 |Omega(n) | bubble sort(better)
 |Omega(log n) |
 |Omega(1) | linear search, selection search
-|    
 
 ## Theta (Big O == Omega)
-|    |   |
+|구분   |항목   |
 |--|---|
 | Theta(n^2) | selection sort
 | Theta(n log n) | merge sort
 | Theta(n) |
 | Theta(log n) |
 | Theta(1) |
-|
 
 </br>
 
@@ -76,10 +74,6 @@
 
 </br>
 
----
-
-</br>
-
 # 정렬
 ## Bubble Sort (버블 정렬)
 - 두 개의 인접한 자료 값을 비교하면서 위치를 교환하는 방식으로 정렬하는 방법
@@ -121,9 +115,6 @@
 - Big O : n + (n-1) + .. + 1 = n(n+1)/2 => O(n^2)
 - Omega : Omega(n^2)
 
-<br>
-
----
 <br>
 
 # 재귀 (Recursion)
