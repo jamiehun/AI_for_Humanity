@@ -1,16 +1,23 @@
 # Big O
-- O(n^2) : 선택정렬, 버블정렬
-- O(n log n) 
-- O(n) : 선형 검색
-- O(log n) : 이진 검색
+- O(n^2) : bubble sort, selection sort
+- O(n log n) : merge sort
+- O(n) : linear search
+- O(log n) : binary search
 - O(1) 
 
 # Omega
-- Omega(n^2) : 선택정렬, 버블정렬
-- Omega(n log n) 
-- Omega(n) : 버블정렬(better)
+- Omega(n^2) : bubble sort, selection sort
+- Omega(n log n) : merge sort
+- Omega(n) : bubble sort(better)
 - Omega(log n)
-- Omega(1) : 선형검색, 이진검색
+- Omega(1) : linear search, selection search
+
+# Theta (Big O == Omega)
+- Theta(n^2) : selection sort
+- Theta(n log n) : merge sort
+- Theta(n) :
+- Theta(log n) :
+- Theta(1) :
 
 # 배열
 - 배열은 한 자료형의 여러 값들이 메모리 상에 모여있는 구조로
@@ -71,3 +78,30 @@
 - Big O : n + (n-1) + .. + 1 = n(n+1)/2 => O(n^2)
 - Omega : Omega(n^2)
 
+# 재귀 (Recursion)
+- 함수가 본인 스스로를 호출해서 사용하는 것
+- 스택 : 함수를 위한 메모리가 계속되서 할당되는 것
+- pseudo code
+    Pick up phone book
+    Open to middle of phone book
+    Look at page
+    If Smith is on page
+        Call Mike
+    Else if Smith is earlier in book
+        Search left half of book
+    Else if Smith is later in book
+        Search right half of book
+    Else
+        Quit
+
+## Merge Sort (병합 정렬)
+- 원소가 한 개가 될 때까지 계속해서 반으로 나누다가 다시 합쳐나가며 정렬하는 방식
+- pseudo code
+    If only one item
+        Return
+    Else
+        Sort left half of items   // Step 1
+        Sort right half of items  // Step 2
+        Merge sorted halves       // Step 3
+
+- Big O : n log(n)
