@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Mon Aug  1 13:35:45 2022
+# Make data base, printed on Mon Aug  1 13:22:12 2022
 
 # Variables
 
@@ -24,16 +24,18 @@ make: *** No rule to make target `all'.  Stop.
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
 @F = $(notdir $@)
+# makefile (from `Makefile', line 1)
+LDLIBS = -lcs50
 # makefile
-CURDIR := /Users/jamie/AI_for_Humanity/CS50_BoostCamp
+CURDIR := /Users/jamie/AI_for_Humanity/CS50_BoostCamp/03_Algorithms
 # makefile
 SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
-# makefile
-MAKEFILE_LIST := 
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
@@ -51,7 +53,7 @@ SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.0vR6DrNwnO/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
-PWD = /Users/jamie/AI_for_Humanity/CS50_BoostCamp
+PWD = /Users/jamie/AI_for_Humanity/CS50_BoostCamp/03_Algorithms
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
@@ -135,7 +137,7 @@ LANG = C
 # environment
 VSCODE_PID = 586
 # variable set hash-table stats:
-# Load=60/1024=6%, Rehash=0, Collisions=1/81=1%
+# Load=61/1024=6%, Rehash=0, Collisions=1/85=1%
 
 # Pattern-specific Variable Values
 
@@ -143,9 +145,9 @@ VSCODE_PID = 586
 
 # Directories
 
-# . (device 16777232, inode 3752878): 6 files, no impossibilities.
+# . (device 16777232, inode 4845580): 21 files, no impossibilities.
 
-# 6 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -170,21 +172,10 @@ all:
 
 # Not a target:
 Makefile:
-#  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
-#  File does not exist.
+#  Last modified 2022-07-29 15:20:44
 #  File has been updated.
-#  Failed to be updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-# Not a target:
-makefile:
-#  A default, MAKEFILES, or -include/sinclude makefile.
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
+#  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
@@ -194,30 +185,19 @@ makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-GNUmakefile:
-#  A default, MAKEFILES, or -include/sinclude makefile.
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
 # files hash-table stats:
-# Load=6/1024=1%, Rehash=0, Collisions=0/17=0%
+# Load=4/1024=0%, Rehash=0, Collisions=0/16=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
 
 # No general (`VPATH' variable) search path.
 
-# # of strings in strcache: 0
-# # of strcache buffers: 0
-# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
-# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
- 
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Aug  1 13:35:45 2022
+# Finished Make data base on Mon Aug  1 13:22:12 2022
 
  
