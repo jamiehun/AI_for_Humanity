@@ -91,6 +91,7 @@ int main(void)
     // list의 메모리 초기화
     free(list);
 }
+```
 
 - realloc으로 재지정하는 방법
 ```c
