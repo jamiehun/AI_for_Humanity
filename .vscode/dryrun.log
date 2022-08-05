@@ -1,6 +1,4 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/jamie/AI_for_Humanity'
-make: Leaving directory `/Users/jamie/AI_for_Humanity'
- 
-make: *** No targets specified and no makefile found.  Stop.
+make.exe --dry-run --always-make --keep-going --print-directory
+'make.exe'��(��) ���� �Ǵ� �ܺ� ����, ������ �� �ִ� ���α׷�, �Ǵ�
+��ġ ������ �ƴմϴ�.
 

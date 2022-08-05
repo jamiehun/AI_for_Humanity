@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 3.81
 # Copyright (C) 2006  Free Software Foundation, Inc.
@@ -199,4 +200,9 @@ Makefile:
 
  
 make: *** No rule to make target `all'.  Stop.
+=======
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+'make.exe'��(��) ���� �Ǵ� �ܺ� ����, ������ �� �ִ� ���α׷�, �Ǵ�
+��ġ ������ �ƴմϴ�.
+>>>>>>> 71bc4b85bc347fa43f98c3ae872cabe6a9ebf654
 

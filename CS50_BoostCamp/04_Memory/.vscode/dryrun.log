@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/jamie/AI_for_Humanity/CS50_BoostCamp/04_Memory'
 make: Leaving directory `/Users/jamie/AI_for_Humanity/CS50_BoostCamp/04_Memory'
  
 make: *** No targets.  Stop.
+=======
+make.exe --dry-run --keep-going --print-directory
+'make.exe'��(��) ���� �Ǵ� �ܺ� ����, ������ �� �ִ� ���α׷�, �Ǵ�
+��ġ ������ �ƴմϴ�.
+>>>>>>> 71bc4b85bc347fa43f98c3ae872cabe6a9ebf654
 
